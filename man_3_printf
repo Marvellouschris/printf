@@ -1,6 +1,6 @@
 .\" _printf man page /usr/share/man/man3/printf.3
 .\"
-.TH _PRINTF 3 "08-08-2022" "0.1" "written_printf"
+.TH _PRINTF 3 "08-08-2022" "3" "written_printf"
 
 .SH NAME
 _printf
@@ -56,12 +56,15 @@ controls the output as in C printf.  Interpreted sequences are:
        \t     tab
 
        %%     a single %
-        %d     int format specifier
+       %d     int format specifier
+       %c     char format specifier
+       %f     float format specifier
+       %lf    double format specifier
 
 .SS Example
 .RS
 _printf("Hello %s", "world");
-Prints "Hello world"
+Prints "Hello world" string
 
 _printf("Some people think me and my partner can't succeed in this project, they never knew God's got our back and the devil is a big %s ", "LIAR")
 
@@ -72,8 +75,8 @@ Upon success, these main function will return the number of characters printed.
 
 .P
 
-.SH "BUG"
-Not known yet. If you detect contact me and my partner on dukeosamhengbe@gmail.com &  marvellousekhatorik@gmail.com
+.SH "BUGS"
+Not known yet. If you detect any, kindly contact us on dukeosamhengbe@gmail.com &  marvellousekhatorik@gmail.com
 
 .SH "AUTHOR"
 Duke Okojie & Ekhator Marvellous
