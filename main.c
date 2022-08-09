@@ -5,7 +5,7 @@
 
 /**
  * main - Entry point
- *
+ * Updated main.c
  * Return: Always 0
  */
 int main(void)
