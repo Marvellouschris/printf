@@ -39,7 +39,7 @@ unsigned int print_width(buffer_t *output, unsigned int printed,
  * @wid: A width modifier.
  * @prec: A precision modifier.
  * @size: The size of the string.
- *
+ * updated
  * Return: The number of bytes stored to the buffer.
  */
 unsigned int print_string_width(buffer_t *output,
